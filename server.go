@@ -51,7 +51,7 @@ func main() {
 		"cidr-blacklist":    "NOVNC_CIDR_BLACKLIST",
 		"host":              os.Getenv("IP"),
 		"port":              os.Getenv("PORT"),
-		"addr":              os.Getenv("IP"),
+		"addr":              "NOVNC_ADDR",
 		"basic-ui":          "NOVNC_BASIC_UI",
 		"no-url-password":   "NOVNC_NO_URL_PASSWORD",
 		"default-view-only": "NOVNC_DEFAULT_VIEW_ONLY",
